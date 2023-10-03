@@ -34,3 +34,6 @@
 
 ## Database
 - Refer. to [Database](/database/README.md)
+
+## Other Compute Services - Serverless Computing - Lambda
+- Refer. to [Other Compute Services](/other_compute_services/README.md)
