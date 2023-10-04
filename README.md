@@ -37,3 +37,6 @@
 
 ## Other Compute Services - Serverless Computing - Lambda
 - Refer. to [Other Compute Services](/other_compute_services/README.md)
+
+## Deployments & Managing Infrastructure at Scale
+- Refer. to [Deployments & Managing Infrastructure at Scale](/deployments/README.md)
