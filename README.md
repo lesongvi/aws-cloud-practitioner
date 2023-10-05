@@ -40,3 +40,6 @@
 
 ## Deployments & Managing Infrastructure at Scale
 - Refer. to [Deployments & Managing Infrastructure at Scale](/deployments/README.md)
+
+## Global Infrastructure
+- Refer. to [Global Infrastructure](/global_infrastructure/README.md)
