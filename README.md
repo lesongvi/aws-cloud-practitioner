@@ -43,3 +43,9 @@
 
 ## Global Infrastructure
 - Refer. to [Global Infrastructure](/global_infrastructure/README.md)
+
+## Cloud Integrations
+- Refer. to [Cloud Integrations](/cloud_integrations/README.md)
+
+## Cloud Monitoring
+- Refer. to [Cloud Monitoring](/cloud_monitoring/README.md)
