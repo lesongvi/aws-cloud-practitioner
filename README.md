@@ -49,3 +49,6 @@
 
 ## Cloud Monitoring
 - Refer. to [Cloud Monitoring](/cloud_monitoring/README.md)
+
+## VPC & Networking
+- Refer. to [VPC & Networking](/vpc_networking/README.md)
