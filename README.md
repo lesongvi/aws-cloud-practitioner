@@ -13,6 +13,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
+Here we go again! Practitioner certificate!
 
 # What is Cloud Computing?
 - Refer. to [What is Cloud Computing?](/what_is_cloud_computing/README.md)
