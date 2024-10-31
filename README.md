@@ -14,6 +14,7 @@
  limitations under the License.
 -->
 Here we go again! Practitioner certificate!
+On my re-learning progress
 
 # What is Cloud Computing?
 - Refer. to [What is Cloud Computing?](/what_is_cloud_computing/README.md)
