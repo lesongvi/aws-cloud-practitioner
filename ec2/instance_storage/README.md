@@ -91,7 +91,7 @@
 - EFS will automatically move files to EFS IA based on the last time they were accessed
 - Enable EFS-IA with a Lifecycle Policy
 - Example: Move files that are not accessed for 7 days to EFS IA
-- Trasparent to the applications accessing EFS.
+- Transparent to the applications accessing EFS.
 
 ## Shared Responsibility Model for EC2 Storage
 ![](/assets/shared_responsibility_model_ec2_storage.png)
