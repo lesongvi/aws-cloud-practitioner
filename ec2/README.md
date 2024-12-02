@@ -187,7 +187,7 @@ Example: m5.2xlarge
 ![](/assets/ec2_dedicated_instances_and_compare_to_ec2_dedicated_hosts.png)
 
 ### EC2 Capacity Reservations
-![](assets/ec2_capacity_reservations.png)
+![](/assets/ec2_capacity_reservations.png)
 
 ### Which EC2 purchasing option should you choose?
 ![](/assets/ec2_which_purchasing_option_is_right_for_me.png)
