@@ -127,6 +127,9 @@
 # DocumentDB
 ![](/assets/documentdb.png)
 
+# Amazon Timestream
+![](/assets/amazon_timestream.png)
+
 # Amazon Neptune
 ![](/assets/amazon_neptune.png)
 
@@ -180,6 +183,9 @@
 
 - Migrate databases to AWS
 	- DMS (Database Migration Service)
+
+- Serverless Timeseries database
+	- Amazon Timestream
 
 - Graph Databases
 	- Neptune (fully managed graph database service)
