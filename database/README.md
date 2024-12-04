@@ -130,7 +130,7 @@
 # Amazon Neptune
 ![](/assets/amazon_neptune.png)
 
-# Amazon QLDB (Quantum Ledger Database)
+# Amazon QLDB (Quantum Ledger Database) -> **Discontinued on 07/31/2025**
 ![](/assets/amazon_qldb.png)
 
 ## Amazon Managed Blockchain
@@ -170,7 +170,7 @@
 	- DocumentDB (JSON Document Database, NoSQL)
 
 - Financial Ledger
-	- QLDB (Quantum Ledger Database, immutable journal, cryptographically verifiable, central database)
+	- QLDB (Quantum Ledger Database, immutable journal, cryptographically verifiable, central database) -> **Discontinued on 07/31/2025**
 
 - Managed Blockchain
 	- Managed Blockchain (Hyperledger Fabric and Ethereum frameworks)
