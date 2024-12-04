@@ -153,12 +153,6 @@ export class MyEcsConstructStack extends core.Stack {
 # AWS CodeArtifact
 ![](/assets/codeartifact.png)
 
-# AWS CodeStar
-![](/assets/codestar.png)
-
-# AWS Cloud9
-![](/assets/aws_cloud9.png)
-
 # AWS Systems Manager (SSM)
 - Helps you manage your EC2 and On-Premises systems at scale
 - Another hybrid AWS service
@@ -175,15 +169,6 @@ export class MyEcsConstructStack extends core.Stack {
 ## SSM Session Manager
 ![](/assets/ssm_session_manager.png)
 
-# AWS OpsWorks
-## Chef and Puppet needed => AWS OpsWorks
-![](/assets/aws_opsworks_chef_puppet.png)
-
-## Why OpsWorks?
-![](/assets/opsworks_architecture.png)
-- OpsWorks is working like Elastic Beanstalk but for Chef and Puppet
-- The only reason you wanted to use OpsWorks is if you're already using Chef and Puppet, and you want to migrate your configuration to AWS and to reuse your existing Chef and Puppet templates
-
 # Deployment summary
 - CloudFormation: (AWS only)
 	- Infrastructure as Code, works with almost all AWS resources
@@ -193,7 +178,6 @@ export class MyEcsConstructStack extends core.Stack {
 	- Deploy code consistently with a known architecture: ex, ALB + EC2 + RDS
 - CodeDeploy: (hybrid): Deploy & upgrade any application onto servers
 - System Manager (SSM): (hybrid): Patch, configure and run commands at scale
-- OpsWorks: (hybrid): Managed Chef & Puppet in AWS
 
 # Developer Services Summary
 - CodeCommit: (AWS only): Store code in private Git repositories (version controlled)
@@ -201,6 +185,4 @@ export class MyEcsConstructStack extends core.Stack {
 - CodeDeploy: (hybrid): Deploy code onto servers
 - CodePipeline: (hybrid): Orchestration of pipeline (from code to build to deploy)
 - CodeArtifact: (AWS only): Store software packages / dependencies on AWS
-- CodeStar: Unified view for allowing developers to do CICD and code
-- Cloud9: Cloud IDE (Integrated Development Environment) with collaboration features
 - AWS CDK: Define your cloud infrastructure using a programming language
