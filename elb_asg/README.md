@@ -14,6 +14,20 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [Elastic Load Balancing (ELB) & Auto Scaling Groups (ASG)](#elastic-load-balancing-elb--auto-scaling-groups-asg)
+	- [Scalability & High Availability](#scalability--high-availability)
+		- [Vertical Scalability](#vertical-scalability)
+		- [Horizontal Scalability](#horizontal-scalability)
+		- [High Availability](#high-availability)
+		- [High Availability vs Scalability summary](#high-availability-vs-scalability-summary)
+		- [Scalability vs. Elasticity (vs. Agility)](#scalability-vs-elasticity-vs-agility)
+	- [Elastic Load Balancer (ELB)](#elastic-load-balancer-elb)
+	- [Auto Scaling Group (ASG)](#auto-scaling-group-asg)
+		- [ASG works hand in hand with ELB](#asg-works-hand-in-hand-with-elb)
+			- [ASG Scaling Strategies](#asg-scaling-strategies)
+	- [ELB & ASG Summary](#elb--asg-summary)
+
 # Elastic Load Balancing (ELB) & Auto Scaling Groups (ASG)
 ## Scalability & High Availability
 - Scalability means that an application / system can handle greater loads by adapting

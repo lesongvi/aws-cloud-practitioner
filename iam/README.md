@@ -14,6 +14,26 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [Identity and Access Management (IAM)](#identity-and-access-management-iam)
+	- [Quick about IAM Users, Groups, and Policies](#quick-about-iam-users-groups-and-policies)
+		- [Tags](#tags)
+	- [IAM Users & Groups](#iam-users--groups)
+	- [IAM Policies](#iam-policies)
+		- [IAM Policy inheritance](#iam-policy-inheritance)
+		- [IAM Policy Structure](#iam-policy-structure)
+		- [IAM MFAs](#iam-mfas)
+		- [Password Policy](#password-policy)
+		- [Multi-Factor Authentication (MFA)](#multi-factor-authentication-mfa)
+	- [AWS Access Keys, CLI, and SDKs](#aws-access-keys-cli-and-sdks)
+		- [AWS CLI](#aws-cli)
+			- [AWS CloudShell](#aws-cloudshell)
+	- [IAM Roles](#iam-roles)
+	- [IAM Security Tools](#iam-security-tools)
+	- [IAM Best Practices](#iam-best-practices)
+	- [Shared Responsibility Model for IAM](#shared-responsibility-model-for-iam)
+	- [IAM Summary](#iam-summary)
+
 # Identity and Access Management (IAM)
 - IAM is a global service, not a regional service.
 - Root account is created when you first create your AWS account. It has complete Admin access. The only thing should be done with the root account is to create an IAM user with Admin access and use that IAM user for all future work, and lock away the root account credentials.

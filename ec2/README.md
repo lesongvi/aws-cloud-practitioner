@@ -14,6 +14,40 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [Elastic Compute Cloud (EC2)](#elastic-compute-cloud-ec2)
+	- [AWS Budget Setup](#aws-budget-setup)
+	- [EC2 sizing and configuration options](#ec2-sizing-and-configuration-options)
+		- [EC2 User Data](#ec2-user-data)
+		- [EC2 Instance Types](#ec2-instance-types)
+			- [Instance Type name convention](#instance-type-name-convention)
+			- [Instance Types - General Purpose](#instance-types---general-purpose)
+			- [Instance Types - Compute Optimised](#instance-types---compute-optimised)
+			- [Instance Types - Memory Optimised](#instance-types---memory-optimised)
+			- [Instance Types - Storage Optimised](#instance-types---storage-optimised)
+		- [Instance Types - General Purpose](#instance-types---general-purpose-1)
+		- [Instance Types - Compute Optimised](#instance-types---compute-optimised-1)
+		- [Instance Types - Memory Optimised](#instance-types---memory-optimised-1)
+		- [Instance Types - Storage Optimised](#instance-types---storage-optimised-1)
+	- [Security Groups & Classic Ports](#security-groups--classic-ports)
+		- [Good to know](#good-to-know)
+		- [Referencing other security groups](#referencing-other-security-groups)
+		- [What classic ports should you know?](#what-classic-ports-should-you-know)
+	- [SSH](#ssh)
+		- [EC2 Instance Connect](#ec2-instance-connect)
+		- [EC2 Instance Roles](#ec2-instance-roles)
+	- [EC2 Instance Purchasing Options](#ec2-instance-purchasing-options)
+		- [EC2 Reserved Instances](#ec2-reserved-instances)
+		- [EC2 Saving Plans](#ec2-saving-plans)
+		- [EC2 Spot Instances](#ec2-spot-instances)
+		- [EC2 Dedicated Hosts](#ec2-dedicated-hosts)
+		- [EC2 Dedicated Instances](#ec2-dedicated-instances)
+		- [EC2 Capacity Reservations](#ec2-capacity-reservations)
+		- [Which EC2 purchasing option should you choose?](#which-ec2-purchasing-option-should-you-choose)
+		- [Price comparison](#price-comparison)
+	- [Shared Responsibility Model for EC2](#shared-responsibility-model-for-ec2)
+	- [EC2 Summary](#ec2-summary)
+
 # Elastic Compute Cloud (EC2)
 - Elastic Compute Cloud (EC2) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
 - EC2 is one of the most popular of the AWS services.
@@ -64,6 +98,7 @@
 	- Optimised for accelerated computing
 	- Optimised for graphics
 - [EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)
+
 #### Instance Type name convention
 Example: m5.2xlarge
 - m: instance class. M stands for main choice of general purpose.

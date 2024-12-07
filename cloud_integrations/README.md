@@ -14,6 +14,20 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [Why Global Applications?](#why-global-applications)
+- [Amazon Simple Queue Service (SQS)](#amazon-simple-queue-service-sqs)
+	- [SQS - Standard Queue](#sqs---standard-queue)
+	- [SQS to decouple between applications tiers](#sqs-to-decouple-between-applications-tiers)
+	- [SQS - FIFO Queue](#sqs---fifo-queue)
+- [Amazon Kinesis](#amazon-kinesis)
+	- [Amazon Kenesis - High Level](#amazon-kenesis---high-level)
+- [Amazon Simple Notification Service (SNS)](#amazon-simple-notification-service-sns)
+	- [Why SNS?](#why-sns)
+	- [Overview](#overview)
+- [Amazon MQ](#amazon-mq)
+- [Cloud Integration - Summary](#cloud-integration---summary)
+
 # Why Global Applications?
 - Synchronous between applications can be problematic if there are sudden spikes in traffic
 - What if you need to suddenly encode 1000 videos but your servers can only handle 100?

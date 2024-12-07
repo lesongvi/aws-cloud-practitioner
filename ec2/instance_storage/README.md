@@ -14,6 +14,25 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [EC2 Instance Storage](#ec2-instance-storage)
+	- [EBS](#ebs)
+		- [EBS Snapshots](#ebs-snapshots)
+			- [EBS Snapshots Features](#ebs-snapshots-features)
+	- [AMI - Amazon Machine Image](#ami---amazon-machine-image)
+		- [AMI Process (From an EC2 Instance)](#ami-process-from-an-ec2-instance)
+	- [EC2 Image Builder](#ec2-image-builder)
+	- [EC2 Instance Store](#ec2-instance-store)
+		- [Local EC2 Instance Store IOPS (Input/Output Operations Per Second)](#local-ec2-instance-store-iops-inputoutput-operations-per-second)
+	- [EFS - Elastic File System](#efs---elastic-file-system)
+		- [EBS vs. EFS](#ebs-vs-efs)
+		- [EFS Infrequent Access (EFS IA)](#efs-infrequent-access-efs-ia)
+	- [Shared Responsibility Model for EC2 Storage](#shared-responsibility-model-for-ec2-storage)
+	- [Amazon FSx](#amazon-fsx)
+		- [FSx for Windows File Server](#fsx-for-windows-file-server)
+		- [FSx for Lustre](#fsx-for-lustre)
+	- [EC2 Instance Storage Summary](#ec2-instance-storage-summary)
+
 # EC2 Instance Storage
 ## EBS
 - EBS stands for Elastic Block Store

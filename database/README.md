@@ -14,6 +14,31 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [AWS RDS (Relational Database Service) & Aurora](#aws-rds-relational-database-service--aurora)
+	- [Advantages of RDS](#advantages-of-rds)
+	- [RDS Solution Architecture](#rds-solution-architecture)
+	- [Amazon Aurora](#amazon-aurora)
+	- [RDS Deployment Options: Read Replica, Multi AZ](#rds-deployment-options-read-replica-multi-az)
+		- [RDS Deployments: Multi-Region](#rds-deployments-multi-region)
+- [Amazon ElastiCache](#amazon-elasticache)
+- [DynamoDB](#dynamodb)
+	- [DynamoDB - type of data](#dynamodb---type-of-data)
+	- [DynamoDB Accelerator (DAX)](#dynamodb-accelerator-dax)
+	- [DynamoDB - Global Tables](#dynamodb---global-tables)
+- [Redshift](#redshift)
+- [Amazon EMR (Elastic MapReduce)](#amazon-emr-elastic-mapreduce)
+- [Amazon Athena](#amazon-athena)
+- [Amazon QuickSight](#amazon-quicksight)
+- [DocumentDB](#documentdb)
+- [Amazon Timestream](#amazon-timestream)
+- [Amazon Neptune](#amazon-neptune)
+- [Amazon QLDB (Quantum Ledger Database) -> **Discontinued on 07/31/2025**](#amazon-qldb-quantum-ledger-database---discontinued-on-07312025)
+	- [Amazon Managed Blockchain](#amazon-managed-blockchain)
+- [AWS Glue](#aws-glue)
+- [DMS (Database Migration Service)](#databases--analytics-summary-in-aws)
+- [Databases & Analytics Summary in AWS](#databases--analytics-summary-in-aws)
+
 # AWS RDS (Relational Database Service) & Aurora
 - RDS stands for Relational Database Service
 - It's a managed DB service for DB use SQL as a query language

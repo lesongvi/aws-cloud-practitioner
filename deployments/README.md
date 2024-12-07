@@ -14,6 +14,28 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [CloudFormation](#cloudformation)
+	- [What is CloudFormation?](#what-is-cloudformation)
+	- [Benefits of CloudFormation](#benefits-of-cloudformation)
+	- [CloudFormation Stack Designer](#cloudformation-stack-designer)
+	- [AWS Cloud Development Kit (AWS CDK)](#aws-cloud-development-kit-aws-cdk)
+		- [CDK Example](#cdk-example)
+	- [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
+		- [What Beanstalk does under the hood?](#what-beanstalk-does-under-the-hood)
+		- [What platforms does Beanstalk support?](#what-platforms-does-beanstalk-support)
+		- [AWS Beanstalk - Health Monitoring](#aws-beanstalk---health-monitoring)
+- [AWS CodeDeploy](#aws-codedeploy)
+- [AWS CodeCommit](#aws-codecommit)
+- [AWS CodeBuild](#aws-codebuild)
+- [AWS CodePipeline](#aws-codepipeline)
+- [AWS CodeArtifact](#aws-codeartifact)
+- [AWS Systems Manager (SSM)](#aws-systems-manager-ssm)
+	- [How SSM works](#how-ssm-works)
+	- [SSM Session Manager](#ssm-session-manager)
+- [Deployment summary](#deployment-summary)
+- [Developer Services Summary](#developer-services-summary)
+
 # CloudFormation
 ## What is CloudFormation?
 - CloudFormation is a declarative way of outlining your AWS Infrastructure, for any resources (most of them are supported)

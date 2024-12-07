@@ -14,6 +14,29 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [Why Global Applications?](#why-global-applications)
+	- [Global AWS Infrastructure](#global-aws-infrastructure)
+	- [Global Application in AWS](#global-application-in-aws)
+- [Amazon Route 53](#amazon-route-53)
+	- [Route 53 - Diagram for A Record](#route-53---diagram-for-a-record)
+	- [Route 53 Routing Policies](#route-53-routing-policies)
+		- [Weighted Routing Policy](#weighted-routing-policy)
+- [AWS CloudFront - Content Delivery Network (CDN)](#aws-cloudfront---content-delivery-network-cdn)
+	- [AWS CloudFront - Origins](#aws-cloudfront---origins)
+	- [AWS CloudFront at a high level](#aws-cloudfront-at-a-high-level)
+	- [AWS CloudFront - S3 as an Origin](#aws-cloudfront---s3-as-an-origin)
+	- [AWS CloudFront vs. S3 Cross Region Replication (CRR)](#aws-cloudfront-vs-s3-cross-region-replication-crr)
+- [S3 Transfer Acceleration](#s3-transfer-acceleration)
+- [AWS Global Accelerator](#aws-global-accelerator)
+	- [AWS Global Accelerator versus. AWS CloudFront](#aws-global-accelerator-versus-aws-cloudfront)
+	- [Tools to test latency](#tools-to-test-latency)
+- [AWS Outposts](#aws-outposts)
+- [AWS WaveLength](#aws-wavelength)
+- [AWS Local Zones](#aws-local-zones)
+- [Global Applications Architecture](#global-applications-architecture)
+- [Leveraging AWS Global Infrastructure summary](#leveraging-aws-global-infrastructure-summary)
+
 # Why Global Applications?
 - A global application is an application deployed in multiple geographies
 - On AWS: this coud be Regions and/or Edge Locations

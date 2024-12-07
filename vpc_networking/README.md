@@ -14,6 +14,26 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [VPC - Crash Course](#vpc---crash-course)
+	- [IP Addresses](#ip-addresses)
+	- [VPC & Subnets Primer](#vpc--subnets-primer)
+	- [VPC Diagram](#vpc-diagram)
+	- [Internet Gateway (IGW) & NAT Gateway](#internet-gateway-igw--nat-gateway)
+	- [Network ACL (NACL) & Security Groups](#network-acl-nacl--security-groups)
+	- [VPC Flow Logs](#vpc-flow-logs)
+	- [VPC Peering](#vpc-peering)
+	- [VPC Endpoints](#vpc-endpoints)
+	- [AWS PrivateLink (Interface VPC Endpoints)](#aws-privatelink-interface-vpc-endpoints)
+	- [Site-to-Site VPN & Direct Connect](#site-to-site-vpn--direct-connect)
+		- [Site-to-Site VPN](#site-to-site-vpn)
+	- [AWS Client VPN](#aws-client-vpn)
+	- [Transit Gateway (TGW) - Overview](#transit-gateway-tgw---overview)
+		- [Network topologies can become complex](#network-topologies-can-become-complex)
+		- [Solution: Transit Gateway](#solution-transit-gateway)
+- [VPC & Networking - Summary](#vpc--networking---summary)
+	- [NAT Instance vs NAT Gateway](#nat-instance-vs-nat-gateway)
+
 # VPC - Crash Course
 - VPC is something you should know in depth for the AWS Certified Solutions Architect Associate & AWS Certified SysOps Administrator
 - At the AWS Certified Cloud Practitioner Level, you should know about:

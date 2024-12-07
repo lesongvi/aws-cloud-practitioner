@@ -14,6 +14,29 @@
  limitations under the License.
 -->
 
+# Table of contents
+- [Docker](#docker)
+	- [Where Docker images are stored?](#where-docker-images-are-stored)
+	- [Docker vs Virtual Machines](#docker-vs-virtual-machines)
+- [ECS (Elastic Container Service)](#ecs-elastic-container-service)
+- [Fargate](#fargate)
+- [ECR (Elastic Container Registry)](#ecr-elastic-container-registry)
+- [Serverless](#serverless)
+	- [Lambda](#lambda)
+		- [Why Lambda?](#why-lambda)
+		- [Benefits of AWS Lambda](#benefits-of-aws-lambda)
+		- [AWS Lambda language support](#aws-lambda-language-support)
+		- [Example: Serverless Thumbnail creation](#example-serverless-thumbnail-creation)
+		- [Example: Serverless CRON Job](#example-serverless-cron-job)
+		- [AWS Lambda Pricing: example](#aws-lambda-pricing-example)
+		- [Amazon API Gateway](#amazon-api-gateway)
+	- [AWS Batch](#aws-batch)
+		- [AWS Batch example](#aws-batch-example)
+	- [Batch vs Lambda](#batch-vs-lambda)
+- [Amazon Lightsail (Simple Cloud Servers - shouldn't be used in your career as a AWS developer)](#amazon-lightsail-simple-cloud-servers---shouldnt-be-used-in-your-career-as-a-aws-developer)
+- [Other Compute Services Summary](#other-compute-services-summary)
+- [Lambda summary](#lambda-summary)
+
 # Docker
 - Docker is a software development platform to deploy apps
 - Apps are packaged in containers that can be run on any OS
