@@ -14,6 +14,20 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [Amazon Rekognition](#amazon-rekognition)
+- [Amazon Transcribe](#amazon-transcribe)
+- [Amazon Polly](#amazon-polly)
+- [Amazon Translate](#amazon-translate)
+- [Amazon Lex & Connect](#amazon-lex--connect)
+- [Amazon Comprehend](#amazon-comprehend)
+- [Amazon SageMaker](#amazon-sagemaker)
+- [Amazon Forecast](#amazon-forecast)
+- [Amazon Kendra](#amazon-kendra)
+- [Amazon Personalize](#amazon-personalize)
+- [Amazon Textract](#amazon-textract)
+- [AWS Machine Learning Services Summary](#aws-machine-learning-services-summary)
+
 # Amazon Rekognition
 - Find objects, people, text, scenes, and activities in images and videos using computer vision.
 - Facial analysis and facial search to do user verification, people counting, and sentiment analysis.

@@ -14,6 +14,43 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [Talking again about AWS Shared Responsibility Model](#talking-again-about-aws-shared-responsibility-model)
+	- [Example, for RDS](#example-for-rds)
+	- [Example, for S3](#example-for-s3)
+	- [Shared Responsibility Model diagram](#shared-responsibility-model-diagram)
+- [Protect your server against DDoS attacks](#protect-your-server-against-ddos-attacks)
+	- [Sample Reference Architecture for DDoS Protection](#sample-reference-architecture-for-ddos-protection)
+	- [AWS Shield](#aws-shield)
+	- [AWS WAF](#aws-waf)
+	- [AWS Network Firewall (VPC)](#aws-network-firewall-vpc)
+- [Penetration Testing on AWS Cloud](#penetration-testing-on-aws-cloud)
+	- [What is Penetration Testing?](#what-is-penetration-testing)
+	- [AWS Penetration Testing Policy](#aws-penetration-testing-policy)
+		- [Prohibited Testing](#prohibited-testing)
+- [Encryption with KMS & CloudHSM](#encryption-with-kms--cloudhsm)
+	- [Data at rest vs. Data in transit](#data-at-rest-vs-data-in-transit)
+	- [AWS KMS (Key Management Service)](#aws-kms-key-management-service)
+	- [CloudHSM (Hardware Security Module)](#cloudhsm-hardware-security-module)
+		- [CloudHSM diagram](#cloudhsm-diagram)
+	- [Types of Customer Master Keys (CMK)](#types-of-customer-master-keys-cmk)
+- [AWS Certificate Manager (ACM)](#aws-certificate-manager-acm)
+- [Secrets Manager overview](#secrets-manager-overview)
+- [Artifact overview (not really a service)](#artifact-overview-not-really-a-service)
+- [Amazon GuardDuty](#amazon-guardduty)
+- [Amazon Inspector](#amazon-inspector)
+	- [What does Amazon Inspector evaluate?](#what-does-amazon-inspector-evaluate)
+- [AWS Config](#aws-config)
+	- [AWS Config Resource](#aws-config-resource)
+- [Amazon Macie](#amazon-macie)
+- [AWS Security Hub](#aws-security-hub)
+- [Amazon Detective](#amazon-detective)
+- [AWS Abuse](#aws-abuse)
+- [Root user privileges](#root-user-privileges)
+- [IAM Access Analyzer](#iam-access-analyzer)
+- [Security & Compliance - Summary](#security--compliance---summary)
+
+
 # Talking again about AWS Shared Responsibility Model
 - AWS responsibility - Security of the Cloud
 	- Protecting infrastructure (hardware, software, facilities, and networking) that runs AWS services
@@ -90,17 +127,24 @@
 ![](/assets/aws_network_firewall.png)
 
 # Penetration Testing on AWS Cloud
-- AWS customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for 8 services:
-	- Amazon EC2 instances, NAT Gateways, and Elastic Load Balancers
-	- Amazon RDS
-	- Amazon CloudFront
-	- Amazon Aurora
-	- Amazon API Gateway
-	- AWS Lambda and Lambda Edge functions
-	- Amazon Lightsail resources
-	- Amazon Elastic Beanstalk environments
+## What is Penetration Testing?
+- Penetration testing (pen testing) is a security exercise where a cyber-security expert tries to find and exploit vulnerabilities in a computer system.
 
-## Prohibited Testing
+## AWS Penetration Testing Policy
+- AWS customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for **8 services**:
+	- [Amazon EC2](/ec2/README.md) instances, [NAT Gateways](/vpc_networking/README.md#internet-gateway-igw--nat-gateway), and [Elastic Load Balancers](/elb_asg/README.md)
+	- [Amazon RDS](/database/README.md#aws-rds-relational-database-service--aurora)
+	- [Amazon CloudFront](/global_infrastructure/README.md#aws-cloudfront---content-delivery-network-cdn)
+	- [Amazon Aurora](/database//README.md#amazon-aurora)
+	- [Amazon API Gateway](/other_compute_services/README.md#amazon-api-gateway)
+	- [AWS Lambda](/other_compute_services/README.md#lambda) and Lambda Edge functions (read about Lambda Edge functions below)
+	- [Amazon Lightsail](/other_compute_services/README.md#amazon-lightsail-simple-cloud-servers---shouldnt-be-used-in-your-career-as-a-aws-developer) resources
+	- [Amazon Elastic Beanstalk](/deployments/README.md#aws-elastic-beanstalk) environments
+- *Note*: You must remember this list of services, it's important for the exam.
+- *Note 2*: This list can be updated by AWS at any time, but you will not be tested on the updated list.
+- *Note about Lamda Edge functions*: This is the same as Lambda but for CloudFront. It allows you to run Lambda functions at AWS edge location (CloudFront) that closest to your users.
+
+### Prohibited Testing
 - DNS zone walking via Amazon Route 53 Hosted Zones
 - Denial of Service (DoS), Distributed Denial of Service (DDoS), Simulated DoS, Simulated DDoS
 - Port flooding
@@ -113,6 +157,7 @@
 # Encryption with KMS & CloudHSM
 ## Data at rest vs. Data in transit
 ![](/assets/data_at_rest_and_data_in_transit.png)
+> It's at rest because it's not moving.
 
 ## AWS KMS (Key Management Service)
 - Anytime you hear "encryption" for an AWS service, it's most likely KMS
@@ -127,6 +172,8 @@
 	- CloudTrail Logs
 	- S3 Glacier
 	- Storage Gateway
+  
+*Note*: SSE = Server Side Encryption
 
 ## CloudHSM (Hardware Security Module)
 ![](/assets/cloudhsm.png)
@@ -196,6 +243,8 @@
 - Network reachability (EC2)
 
 - A risk score is associated with all vulnerabilities for prioritization
+  
+*Note*: CVE = Common Vulnerabilities and Exposures
 
 # AWS Config
 - Helps with auditing and recording compliance of your AWS resources

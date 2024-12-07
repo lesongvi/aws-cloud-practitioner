@@ -75,4 +75,8 @@
 	- Multiple subscribers, send all messages to all subscribers
 	- No message retention, push mechanism
 - Kinesis: realtime data streaming, persistence and analytics
+	- Kinesis Streams: low latency streaming ingest at scale
+	- Kinesis Analytics: run SQL queries on the data
+	- Kinesis Firehose: load streams into S3, Redshift, ElasticSearch, etc...
+	- Kinesis Video Streams: securely stream video from connected devices to AWS for analytics and machine learning
 - Amazon MQ: managed message broker for ActiveMQ and RabbitMQ in the cloud (MQTT, AMQP.. protocols)

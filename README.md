@@ -13,9 +13,6 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
-Here we go again! Practitioner certificate!
-  
-On my re-learning progress!
 
 # What is Cloud Computing?
 - Refer. to [What is Cloud Computing?](/what_is_cloud_computing/README.md)
@@ -61,3 +58,18 @@ On my re-learning progress!
 
 ## Machine Learning
 - Refer. to [Machine Learning](/machine_learning/README.md)
+
+## Account Management, Billing & Support
+- Refer. to [Account Management, Billing & Support](/account_management/README.md)
+
+## Advanced Identity
+- Refer. to [Advanced Identity](/advanced_identity/README.md)
+
+## Other Services
+- Refer. to [Other Services](/other_services/README.md)
+
+## AWS Architecting & Ecosystem
+- Refer. to [AWS Architecting & Ecosystem](/aws_architecting/README.md)
+
+## One thing that I never forget in my life
+> That's it for this lecture, I hope you liked it, and I will see you in the next lecture!
