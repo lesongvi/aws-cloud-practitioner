@@ -14,6 +14,30 @@
  limitations under the License.
 -->
 
+# Table of Contents
+- [Amazon WorkSpaces](#amazon-workspaces)
+	- [Amazon WorkSpaces - Multiple Regions](#amazon-workspaces---multiple-regions)
+- [Amazon AppStream 2.0](#amazon-appstream-20)
+	- [Amazon AppStream 2.0 vs. WorkSpaces](#amazon-appstream-20-vs-workspaces)
+- [AWS IoT Core](#aws-iot-core)
+- [Amazon Elastic Transcoder](#amazon-elastic-transcoder)
+- [AWS AppSync](#aws-appsync)
+- [AWS Amplify](#aws-amplify)
+- [AWS Application Composer (is now AWS Infrastructure Composer)](#aws-application-composer-is-now-aws-infrastructure-composer)
+- [AWS Device Farm](#aws-device-farm)
+- [AWS Backup](#aws-backup)
+- [Disaster Recovery Strategies](#disaster-recovery-strategies)
+- [AWS Elastic Disaster Recovery (DRS)](#aws-elastic-disaster-recovery-drs)
+- [AWS DataSync](#aws-datasync)
+- [Cloud Migration Strategies: The 7Rs](#cloud-migration-strategies-the-7rs)
+- [AWS Application Discovery Service](#aws-application-discovery-service)
+	- [AWS Application Migration Service (MGN)](#aws-application-migration-service-mgn)
+- [AWS Migration Evaluator (formerly TSO Logic)](#aws-migration-evaluator-formerly-tso-logic)
+- [AWS Migration Hub](#aws-migration-hub)
+- [AWS Fault Injection Simulator (FIS)](#aws-fault-injection-simulator-fis)
+- [Step Functions](#step-functions)
+- [AWS Ground Station](#aws-ground-station)
+- [AWS Pinpoint](#aws-pinpoint)
 
 # Other AWS Services section
 - Other services represent services that can't group into other sections.
