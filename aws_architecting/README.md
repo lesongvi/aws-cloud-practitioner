@@ -127,15 +127,99 @@
 ![](/assets/pillar_6-aws_services_educative.png)
 
 ## AWS Well-Architected Tool
+- Free tool to **review your architecture** against the 6 pillars Well-Architected Framework and **adopt architectural best practices**
+- How does it work?
+	- Select your workload and answer questions
+	- Review your answers against the 6 pillars
+	- Obtain advice: get videos and documentations, generate a report, see the results in a dashboard
+
+**Note**: This tool somehow makes me think of the Coding Checklists, where you can review your code against a set of best practices.
 
 ## AWS Customer Carbon Footprint Tool
+![](/assets/aws_customer_carbon_footprint_tool.png)
+
+## AWS Cloud Adoption Framework (CAF)
+- Helps you build and then execute a comprehensive plan for your digital transformation through innovative use of AWS
+- Created by AWS Professionals by taking advantage of AWS Best Practices and lessons learned from thousands of customers
+- AWS CAF identifies specific organizational capabilities that are essential to the success of your cloud adoption transformation
+- AWS CAF groups its capabilities in six perspectives:
+	1. **Business Perspective**
+	2. **People Perspective**
+	3. **Governance Perspective**
+	4. **Platform Perspective**
+	5. **Security Perspective**
+	6. **Operations Perspective**
+
+### CAF Perspectives and Foundational Capabilities - Business Capabilities
+- **Business Perspective** helps ensure that your cloud investment accelerate your digital transformation ambitions and business outcomes.
+- **People Perspective** serves **as a bridge between technology and business**, accelerating the cloud journey to help organizations more rapidly evolve to a culture of continuous growth, learning, and where change becomes business-as-normal, with focus on culture, organizational structure, leadership, and workforce.
+- **Governance Perspective** helps you orchestrate your cloud initiatives while maximizing organizational benefits and minimizing transformation-related risks.
+  
+![](/assets/caf_perspectives_and_foundational_capabilities_business_capabilities.png)
+
+### CAF Perspectives and Foundational Capabilities - Technical Capabilities
+- **Platform Perspective** helps you build an enterprise-grade, scalable, hybrid cloud platform; modernize existing workloads; and implement new cloud-native solutions.
+- **Security Perspective** helps you achieve the confidentiality, integrity, and availability of your data and cloud workloads.
+- **Operations Perspective** helps ensure that your cloud services are delivered at a level that meets the needs of your business.
+  
+![](/assets/caf_perspectives_and_foundational_capabilities_technical_capabilities.png)
+
+### Cloud transformation value chain
+![](/assets/cloud_transformation_value_chain.png)
+
+### AWS CAF - Transformation Domains
+- **Technology** - using the cloud to migrate and modernize legacy infrastructure, applications, data and analytics platforms...
+- **Process** - digitizing, automating, and optimizing your business operations
+	- leveraging new data and analytics platforms to create actionable insights
+	- using machine learning (ML) to improve your customer service experience...
+- **Organization** - Reimagining your operating model
+	- Organizing your teams around products and value streams
+	- Leveraging agile method to rapidly iterate and evolve
+- **Product** - reimagining your business model by creating new value propositions (products & services) and revenue models
+
+### AWS CAF - Transformation Phases
+- **Envision** - demonstrate how the Cloud will accelerate business outcomes by identifying transformation opportunities and create a foundation for your digital transformation
+- **Align** - identify capability gaps across the 6 AWS CAF Perspectives which results in an Action Plan
+- **Launch** - build and deliver pilot initiatives in production and demonstrate incremental business value
+- **Scale** - expand pilot initiatives to the desired scale while realizing the desired business benefits
 
 ## Right Sizing
+- EC2 has many instance types, but choosing the most powerful instance type is not always the best choice, because the cloud is elastic and you can scale up or down as needed
+- Right sizing is the process of matching instance type and sizes to your workload performance and capacity requirements **at the lowest possible cost**
+- **Scaling up is easy so always start small and scale up as needed**
+- It's also the process of looking at deployed instances and identifying opportunities to eliminate or downsize without compromising capacity or other requirements, which results in lower costs
+- It's important to Right Size...
+	- **before a Cloud Migration** - to avoid over-provisioning
+	- **continuously after the cloud onboarding process (requirements change over time)** - to avoid under-provisioning
+- CloudWatch, Cost Explorer, Trusted Advisor, 3rd party tools can help.
 
 ## AWS Ecosystem
+### AWS Ecosystem - Free resources
+![](/assets/aws_ecosystem-free_resources.png)
+
+### AWS Ecosystem - AWS Support
+![](/assets/aws_ecosystem-aws_support.png)
+
+### AWS Marketplace
+![](/assets/aws_marketplace.png)
+
+### AWS Training
+![](/assets/aws_training.png)
+
+### AWS Professional Services & Partner Network
+![](/assets/aws_professional_services_and_partner_network.png)
 
 ## AWS IQ & re:Post
+### AWS IQ
+![AWS IQ](/assets/aws_iq.png)
 
-## AWS Knowledge Center
+### re:Post
+![re:Post](/assets/re_post.png)
 
-## AWS Managed Services
+## AWS re:Post - Knowledge Center
+![](/assets/aws_re-post-knowledge_center.png)
+
+## AWS Managed Services (AMS)
+![](/assets/aws_managed_services.png)
+  
+![](/assets/aws_managed_services_diagram.png)
