@@ -73,3 +73,6 @@
 
 ## One thing that I never forget in my life
 > That's it for this lecture, I hope you liked it, and I will see you in the next lecture!
+
+# Happy Learning and Good Luck!
+- Wish you all the best in your journey to become a Cloud Architect!
