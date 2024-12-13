@@ -348,7 +348,7 @@
 - Analyze your data at a high level: total costs and usage across all accounts
 - Or monthly, hourly, resource level granularity
 - Choose an optimal **Savings Plan** based on your usage (to lower prices on your bill)
-- **Forecase usage up to 12 months based on previous usage (historical data)**
+- **Forecast usage up to 12 months based on previous usage (historical data)**
 
 ## Monitoring costs in the cloud - Billing Alarm & Budgets
 ### Billing Alarm in CloudWatch
