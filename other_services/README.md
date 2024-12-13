@@ -139,7 +139,7 @@
 	- Expensive in a short term, but can be beneficial in the long term
 	- <u>Example</u>: CRM to Salesforce, HR to Workday, CMS to Drupal
 - **Refactor / Re-architecture**:
-	- Reimagining how the application is architected using Clod-native features
+	- Reimagining how the application is architected using Cloud-native features
 	- Driven by the need of the business to add features and improve scalability, performance, security, and agility
 	- Move from monolithic application to microservices
 	- <u>Example</u>: move an application to Serverless architecture, use AWS S3
