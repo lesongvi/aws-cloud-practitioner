@@ -168,4 +168,4 @@
 ![](/assets/aws_ground_station.png)
 
 # AWS Pinpoint
-![](/assets/aws_pinpoint.png)
+![](/assets/Screenshot_2024-12-14-09-06-26-56_ae707cf29e3f1d126c66e555855ddbc1.jpg)
